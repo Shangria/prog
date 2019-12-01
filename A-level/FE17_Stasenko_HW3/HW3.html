@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW3</title>
+    <link rel="stylesheet" href="HW3.css">
+</head>
+<body>
+<div class="required">
+    <p>
+        <img src="img/a-level-ico.png" alt="logo" class="pull-left"> Алиса хочет отправить важное сообщение Бобу</p>
+    <p>Сообщение a = ( a<sub>1</sub>, ..., a<sub>n</sub> ) является последовательностью положительных чисел ( символов )</p>
+    <p>Для сжатия сообщения Алиса хочет использовать <span class="prompt" title="двоичный префиксно-свободный код">двоичный код Хаффмана</span></p>
+    <p>Напомним, что двоичный код Хаффмана, или двоичный префиксно-свободный код — это функция f, которая сопоставляет каждому символу сообщения двоичные строки (то есть строки, состоящие
+        только из символов «0» и «1») таким образом, что ни для какой пары различных символов a<sub>i</sub> и a<sub>j</sub> строка f( a<sub>i</sub> )
+        не является префиксом f( a<sub>j</sub> ) (и наоборот)</p>
+    <p>Результатом кодирования сообщения a<sub>1</sub>, a<sub>2</sub>, ..., an является конкатенация кодов отдельных символов, то есть строка f( a<sub>1</sub> )f( a<sub>2</sub> )... f( a<sub>n</sub> )</p>
+    <p>Коды Хаффмана удобны тем, что закодированное сообщение можно легко и однозначно декодировать,
+        если знать код</p>
+    <p>
+        <img src="img/a-level-ico.png" alt="logo" class="pull-right"> Код обычно выбирается таким образом, чтобы минимизировать суммарную длину закодированного сообщения,
+        то есть длину строки f( a<sub>1</sub>)f( a<sub>2</sub> )... f( a<sub>n</sub> )</p>
+    <p>Алиса не хочет посылать сообщение целиком, поскольку это слишком рискованно</p>
+    <p>Вместо этого она выбрала несколько частей сообщения и хочет отправить их по отдельности</p>
+    <p>Для каждой выбранной подстроки a<sub>ki</sub>... am<sub>i</sub> она хочет найти минимальную длину этой подстроки, закодированной по Хаффману</p>
+    <p>Помогите ей с этой задачей.</p>
+</div>
+<div class="additionally">
+    <blockquote cite="#"><p>Судьба тасует карты, а мы ими играем</p>
+        <footer><cite>Артур Шопенгауэр</cite></footer>
+    </blockquote>
+    <div class="cards">
+        <img src="img/card.png" class="card-position1" alt="card">
+        <img src="img/card.png" class="card-position2" alt="card">
+        <img src="img/card.png" class="card-position3" alt="card">
+    </div>
+</div>
+<div class="additionally_part_2">
+    <img src="img/september-one-month.jpg" alt="sept" class="months">
+    <img src="img/october.jpg" alt="okt" class="months">
+    <img src="img/november.jpg" alt="nov" class="months">
+    <img src="img/december-one-month.jpg" alt="des" class="months">
+</div>
+</body>
+</html>
