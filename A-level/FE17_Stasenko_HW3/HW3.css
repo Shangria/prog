@@ -43,49 +43,34 @@
     color: #fffcd0;
 }
 
-.additionally, .additionally_part_2 blockquote p:before {
-    content: "\201C";
-}
-
-.additionally, .additionally_part_2 blockquote p:after {
-    content: "\201D";
-}
-
 .additionally .cards {
     position: relative;
-    left: 210px;
-    top: 45px;
 }
 
-.additionally .cards .card-position1, .card-position2, .card-position3 {
+.additionally .cards .card {
     width: 150px;
     position: absolute;
-    transition: 500ms, linear;
+    transition: top 200ms linear;
+    left: 50%;
+    top: 0;
 }
 
-.additionally .cards .card-position1 {
-    transform: translate(-50%) rotate(-17deg);
-}
-
-.additionally .cards .card-position2 {
-    transform: translate(-13%) rotate(-7deg);
-}
-
-.additionally .cards .card-position3 {
-    transform: translate(19%) rotate(3deg);
-}
-
-.additionally .cards .card-position1:hover {
+.additionally .cards .card:hover {
     top: -30px;
 }
 
-.additionally .cards .card-position2:hover {
-    top: -30px;
+.additionally .cards .card1 {
+    transform: translate(-60%) rotate(-17deg);
 }
 
-.additionally .cards .card-position3:hover {
-    top: -30px;
+.additionally .cards .card2 {
+    transform: translate(-50%) rotate(-7deg);
 }
+
+.additionally .cards .card3 {
+    transform: translate(-40%) rotate(3deg);
+}
+
 
 .additionally_part_2 {
     position: relative;
