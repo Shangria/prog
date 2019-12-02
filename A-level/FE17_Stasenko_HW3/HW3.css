@@ -131,3 +131,23 @@
 .additionally-part-2 .months-wrapper:hover .poem {
     display: block;
 }
+.additionally-part-3 {
+    margin-top: 15px;
+    border: palevioletred 1px solid;
+    border-radius: 6px;
+    width: 400px;
+    height: 180px;
+    background-color: #fff4c1;
+    color: #d50e95;
+    font-size: 15px;
+}
+.additionally-part-3 img{
+    height: 110px;
+    width: 165px;
+    float: left;
+    margin: 20px 10px;
+}
+.additionally-part-3 .content-card{
+    text-align: justify;
+    margin: 5px;
+}
