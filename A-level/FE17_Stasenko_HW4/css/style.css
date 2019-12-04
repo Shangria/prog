@@ -1,0 +1,59 @@
+.required {
+    position: relative;
+    border: #02010f 1px solid;
+}
+
+.required h3 {
+    margin: 10px;
+    color: #3b5bdb;
+}
+
+.required video {
+    position: relative;
+    left: 30%;
+}
+
+.required audio {
+    position: absolute;
+    left: 0;
+}
+
+.flip-container {
+    position: relative;
+    left: 45%;
+
+    perspective: 100px;
+    width: 150px;
+    height: 200px;
+    transition: 1s ease;
+    transform-style: preserve-3d;
+}
+
+.additionally .flip-container:hover {
+    transform: rotateY(180deg);
+}
+
+.additionally .flip-container .flip-1, .flip-2 {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 30px;
+    box-shadow: 1px 1px 22px 0 rgba(0, 0, 0, 0.75);
+}
+
+.additionally .flip-container .flip-1 {
+    background-color: #0000ff;
+}
+
+.additionally .flip-container .flip-2 {
+    transform: rotateY(180deg);
+    background-color: #fffa0e;
+}
+.additionally .flip-container span {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 27px;
+    top: 98px
+}
