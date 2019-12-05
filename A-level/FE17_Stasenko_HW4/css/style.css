@@ -67,7 +67,7 @@
     height: 700px;
     background-color: #b1b6db;
     left: -300px;
-    transition: left 1s linear;
+    transition: left .4s linear;
 }
 
 .additionally-part-2 .sidebar {
