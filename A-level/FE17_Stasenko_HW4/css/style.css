@@ -3,17 +3,13 @@
     border: #02010f 1px solid;
 }
 
-.required h3 {
-    margin: 10px;
-    color: #3b5bdb;
-}
-
 .required video {
     position: relative;
     left: 30%;
 }
 
 .required audio {
+    margin: 15px;
     position: absolute;
     left: 0;
 }
@@ -62,8 +58,7 @@
     position: relative;
     width: 300px;
     height: 700px;
-    border: black 1px solid;
-    background-color: #4d62db;
+    background-color: #b1b6db;
     left: -300px;
     transition: left 1s linear;
 }
@@ -86,16 +81,16 @@
 .additionally-part-2 .sidebar .list ul li a {
     text-decoration: none;
     display: inline-block;
+    margin-left: 10px;
     color: #fff4c1;
     font-weight: bold;
     transform: translateX(0);
     transition: all 0.5s ease-in-out;
-
 }
 
 .additionally-part-2 .sidebar .list ul li:hover a {
     transform: translateX(20px);
-    color: #ff3211;
+    color: #0000ff;
     transition: all 0.5s ease-in-out;
 }
 
@@ -108,8 +103,8 @@
     width: 20px;
     height: 700px;
     left: 100%;
-    background-color: #4d62db;
-    transition: opacity 1s ease;
+    background-color: #6652ec;
+    transition: opacity 0.5s ease;
 }
 
 .additionally-part-2:hover {
