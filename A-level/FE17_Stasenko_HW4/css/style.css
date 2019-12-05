@@ -71,6 +71,10 @@
     width: 100%;
 }
 
+.additionally-part-2:hover .sidebar-block {
+    opacity: 0;
+}
+
 .additionally-part-2 .sidebar .list {
     margin: 40px;
     position: absolute;
@@ -106,10 +110,6 @@
     left: 100%;
     background-color: #6652ec;
     transition: opacity 0.5s ease;
-}
-
-.additionally-part-2:hover .sidebar-block {
-    opacity: 0;
 }
 
 .additionally-part-2 .sidebar-block p {
