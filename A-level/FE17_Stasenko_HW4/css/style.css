@@ -29,7 +29,7 @@
 }
 
 .additionally .flip-container .flip-1,
-.flip-2 {
+.additionally .flip-container .flip-2 {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
