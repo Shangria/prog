@@ -1,19 +1,11 @@
 .required {
-    position: relative;
     border: #02010f 1px solid;
 }
 
-.required video {
-    position: relative;
-    left: 30%;
-}
-
+.required video,
 .required audio {
     margin: 15px;
-    position: absolute;
-    left: 0;
 }
-
 
 .additionally .flip-container-wrapper {
     position: relative;
@@ -26,7 +18,6 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    perspective: 100px;
     transition: transform 1s ease;
     transform-style: preserve-3d;
 }
