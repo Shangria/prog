@@ -14,15 +14,10 @@
     left: 0;
 }
 
-.additionally {
-    position: relative;
-    height: 300px;
-}
 
 .additionally .flip-container-wrapper {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
+    position: relative;
+    margin: auto;
     width: 150px;
     height: 200px;
 }
