@@ -92,13 +92,12 @@
     color: #fff4c1;
     font-weight: bold;
     transform: translateX(0);
-    transition: all 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
 }
 
 .additionally-part-2 .sidebar .list ul li:hover a {
     transform: translateX(20px);
     color: #0000ff;
-    transition: all 0.5s ease-in-out;
 }
 
 .additionally-part-2 .sidebar ul li:before {
