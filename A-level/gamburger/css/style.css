@@ -1,0 +1,45 @@
+
+.hamburger {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+
+.hamburger input[type="checkbox"] {
+    display: none;
+}
+
+.hamburger input[type="checkbox"]:checked + ul {
+    display: block;
+    height: auto;
+    top: 100%;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.hamburger ul {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 100%;
+    left: 0;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all .4s ease-in-out;
+}
+
+.hamburger li {
+    text-align: left;
+    padding: 5px;
+}
+
+.hamburger li:hover {
+    background-color: lightgrey;
+}
