@@ -18,6 +18,28 @@
     text-decoration: none;
     color: #000;
 }
+nav .menu-icon {
+    display: none;
+}
+.list li {
+    position: relative;
+}
+
+.drop-down {
+    width: 150px;
+    position: absolute;
+    background-color: #fda429;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.list li:hover .drop-down {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s linear;
+}
 
 .wrapper {
     display: flex;
@@ -176,5 +198,19 @@
     flex-basis: 50%;
 }
 
+@media (max-width: 1024px) {
+    .head {
+        background-color: red;
+    }
+}
+
+@media (max-width: 768px) {
+   .nav .menu-icon {
+        display: block;
+    }
+    .nav .list {
+        display: none;
+    }
+}
 
 

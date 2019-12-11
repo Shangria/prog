@@ -5,15 +5,38 @@
     <title>HW4</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        (function($){
+            $(function() {
+                $('.menu-icon').on('click', function() {
+                    $(this).closest('.nav').toggleClass('menu_state_open');
+                });
+            });
+        })(jQuery);
+
+    </script>
 </head>
 <body>
 <header class="head">
     <div class="logo">
         <img src="img/a-level-ico.png" alt="logo">
     </div>
-    <nav>
+    <nav class="nav">
+        <div class="menu-icon">
+                <b>MENU</b>
+            </div>
         <ul class="list">
-            <li><a href="#">Item1</a></li>
+            <li>
+                <a href="#">&#10148;Item1</a>
+                <ul class="drop-down">
+                    <li>ff</li>
+                    <li>ff</li>
+                    <li>ff</li>
+                    <li>ff</li>
+                </ul>
+            </li>
             <li><a href="#">Item2</a></li>
             <li><a href="#">Item3</a></li>
             <li><a href="#">Item4</a></li>
