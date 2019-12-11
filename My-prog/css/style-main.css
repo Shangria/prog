@@ -65,6 +65,13 @@
 .banner .navigation a {
     color: black;
     text-decoration: none;
+    transition: all .5s ease;
+}
+
+.banner .navigation a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #fff4c1;
+    padding-bottom: 1px;
 }
 
 .banner .homepage-container-body {
@@ -75,9 +82,19 @@
     align-items: center;
 }
 
-.banner .entry-title {
+.banner .entry-title,
+.banner .entry-content {
     color: white;
     text-align: center;
     font-size: 35px;
     line-height: 2em;
+    text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(206, 89, 55, 0);
+}
+
+.banner .entry-content {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.footer{
+
 }
