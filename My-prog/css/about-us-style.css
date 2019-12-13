@@ -1,5 +1,4 @@
 .about-us-container {
-    height: 100vh;
     text-align: center;
     font-size: 30px;
 }
@@ -19,7 +18,7 @@
 .about-us-container .img-box img {
     max-width: 100%;
     width: 100%;
-    box-shadow: 10px 7px 32px -3px rgba(0,0,0,0.75);
+    box-shadow: 10px 7px 32px -3px rgba(0, 0, 0, 0.75);
 }
 
 .about-us-container .img-box img:first-child {
@@ -28,9 +27,10 @@
     max-width: 90%;
 }
 
-.about-us-container .img-box img:last-child{
+.about-us-container .img-box img:last-child {
     object-fit: contain;
 }
+
 .about-us-container .about-content {
     width: 35%;
     font-size: 20px;
@@ -38,21 +38,105 @@
     color: grey;
     text-indent: 1.5em;
 }
-.about-us-container .about-content h3{
+
+.about-us-container .about-content h3 {
     color: red;
     text-align: center;
     font-weight: normal;
     text-indent: 0;
 }
-.store-information-content{
-    max-height: 40%;
-    background-color: #efb1f8;
+
+.store-information-content {
+    margin-top: 20px;
+    background-color: #fbe1ee;
     display: flex;
+    justify-content: center;
 }
-.store-information-content .general-information{
-    width: 60%;
+
+.store-information-content .general-information {
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
 }
-.store-information-content img{
-    width: 30%;
+
+.store-information-content .content-head {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+    align-items: stretch;
+}
+
+.store-information-content .content-head h3 {
+    color: red;
+    font-weight: normal;
+}
+
+.store-information-content .btn-read {
+    width: 90px;
+    height: 35px;
+    background-color: #c291cb;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.store-information-content .btn-read a {
+    color: #333333;
+}
+
+.store-information-content .btn-read:hover {
+    background-color: #966d9f;
+    color: #646464;
+}
+
+.store-information-content .btn-read:hover a {
+    color: black;
+}
+
+.store-information-content .img-container {
+    width: 25%;
+    margin: 10px 70px;
+}
+
+.store-information-content .img-container img {
+    max-width: 100%;
+}
+
+
+@media (max-width: 767px) {
+    * {
+        font-size: 20px;
+    }
+
+    .about-us-container .entry-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .store-information-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .store-information-content .general-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .general-information .content-footer {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    * {
+        font-size: 15px;
+    }
 
 }
