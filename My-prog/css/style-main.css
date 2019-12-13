@@ -1,23 +1,44 @@
-* {
+*, *:after, *:before {
     box-sizing: border-box;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+}
+
+a {
     text-decoration: none;
+}
+
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif;
 }
 
 .banner {
     height: 100vh;
-    background: url("../img/banner.jpg") center center no-repeat;
+    width: 100%;
+    background: url(../img/banner.jpg) center center no-repeat;
     background-size: cover;
-}
-
-.banner .head {
     display: flex;
-    height: 90px;
-    background: rgba(230, 230, 230, 0.5);
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
 }
 
-.banner .head .head-navigation {
+.banner-content {
+    max-width: 500px;
+    padding: 70px 0;
+}
+
+.head {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    background: rgba(230, 230, 230, 0.5);
+    padding-bottom: 10px;
+}
+
+.head-navigation {
     width: 100%;
     display: flex;
     align-items: center;
@@ -25,20 +46,20 @@
     font-weight: bold;
 }
 
-.banner .logo {
+.logo {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 
-.banner .logo .abbr-logo-name {
+.logo .abbr-logo-name {
     text-transform: uppercase;
     color: white;
     font-size: 50px;
     padding-left: 15px;
 }
 
-.banner .logo .abbr-logo-name:after {
+.logo .abbr-logo-name:after {
     display: inline-block;
     content: '\2014';
     transform: translate(0, 100%) rotate(-90deg);
@@ -46,7 +67,7 @@
     margin: -25px;
 }
 
-.banner .logo .logo-name {
+.logo .logo-name {
     font-size: 15px;
     padding-left: 10px;
     color: #fda429;
@@ -54,35 +75,34 @@
     text-shadow: 2px 2px 2px #CE5937;
 }
 
-.banner .navigation {
+.navigation {
     display: flex;
     width: 40%;
     justify-content: space-between;
     padding-right: 15px;
 }
 
-.banner .navigation a {
+.navigation a {
     color: black;
     text-decoration: none;
     transition: all .5s ease;
 }
 
-.banner .navigation a:hover {
+.navigation a:hover {
     text-decoration: none;
     border-bottom: 3px solid #fff4c1;
     padding-bottom: 1px;
 }
 
-.banner .homepage-container-body {
-    max-width: 50%;
+.homepage-container-body {
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.banner .main-title,
-.banner .homepage-content {
+.main-title {
     color: white;
     text-align: center;
     font-size: 2em;
@@ -90,23 +110,44 @@
     text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(206, 89, 55, 0);
 }
 
-.banner .homepage-content {
-    font-size: 20px;
-    line-height: 1;
-}
 
 @media (max-width: 767px) {
-    .logo, .abbr-logo-name, .logo-name {
-        display: none;
+
+    .banner .head {
+
+        height: 140px;
+        margin-bottom: 10px;
     }
 
-    .banner .head .head-navigation {
-        display: flex;
-        justify-content: start;
+    .banner h3 {
+
+        font-size: 1em;
+
+    }
+
+    .banner h1 {
+
+        font-size: 2em
+
+    }
+
+    .logo, .abbr-logo-name, .logo-name {
+
+        display: none;
+
     }
 
     .navigation {
+
+        flex-basis: 100%;
+
         display: flex;
+
         flex-direction: column;
+
+        padding: 15px;
+
+
     }
+
 }
