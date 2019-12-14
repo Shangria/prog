@@ -1,0 +1,35 @@
+.container-goods{
+    background-color: #efecfb;
+    height: 50%;
+    margin-top: 20px;
+}
+.container-goods .goods-block{
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+.container-goods img{
+    max-width: 635px;
+    max-height: 453px;
+}
+.container-goods .content-with-goods{
+    display: flex;
+    flex-direction: column;
+}
+.container-goods .box-goods{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.container-goods .box-goods img{
+    max-width: 80px;
+    min-height: 80px;
+    order: 2;
+}
+.box-goods .goods{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
