@@ -1,45 +1,45 @@
-.about-us-container {
+.wrapper {
     text-align: center;
     font-size: 30px;
 }
 
-.about-us-container .entry-content {
+.wrapper .entry-content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
 }
 
-.about-us-container .entry-content .img-box {
+.wrapper .entry-content .img-box {
     max-width: 30%;
     position: relative;
 }
 
-.about-us-container .img-box img {
+.wrapper .img-box img {
     max-width: 100%;
     width: 100%;
     box-shadow: 10px 7px 32px -3px rgba(0, 0, 0, 0.75);
 }
 
-.about-us-container .img-box img:first-child {
+.wrapper .img-box img:first-child {
     position: absolute;
     transform: translate(40%, 115%);
     max-width: 90%;
 }
 
-.about-us-container .img-box img:last-child {
+.wrapper .img-box img:last-child {
     object-fit: contain;
 }
 
-.about-us-container .about-content {
-    width: 35%;
+.wrapper .about-content {
+    max-width: 30%;
     font-size: 20px;
     text-align: justify;
     color: grey;
     text-indent: 1.5em;
 }
 
-.about-us-container .about-content h3 {
+.wrapper .about-content h3 {
     color: red;
     text-align: center;
     font-weight: normal;
@@ -111,10 +111,13 @@
         font-size: 20px;
     }
 
-    .about-us-container .entry-content {
+    .wrapper .entry-content {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .wrapper .about-content {
+        max-width: 90%;
     }
 
     .store-information-content {
@@ -123,19 +126,19 @@
         align-items: center;
     }
 
-    .store-information-content .general-information {
+    .general-information {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .general-information .content-footer {
-        margin: 20px;
+        padding: 20px;
     }
 }
 
 @media (max-width: 575px) {
-    * {
+    body {
         font-size: 15px;
     }
 
