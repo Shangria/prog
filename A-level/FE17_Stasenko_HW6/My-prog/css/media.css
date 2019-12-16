@@ -28,7 +28,7 @@
 
     .head .hamburger {
         background-color: rgba(161, 255, 162, 0.5);
-        display: inline-block;
+        display: block;
         padding: 10px;
         border-radius: 8px;
         margin: 5px;
