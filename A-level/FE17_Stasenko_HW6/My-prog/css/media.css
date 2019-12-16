@@ -51,32 +51,74 @@
         padding: 15px;
     }
 
-    .entry-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about-us .store-information-content .inner,
-    .about-us .about-us1 .inner {
+    /*about us*/
+    .about-us .about-inner .inner {
         width: 100%;
     }
 
-    .store-information-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .about-us .about-inner .entry-content {
+        justify-content: space-around;
     }
 
-    .general-information {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .about-us .entry-content .img-box {
+        max-width: 30%;
+        position: relative;
     }
 
-    .general-information .content-footer {
-        padding: 20px;
+    .about-us .img-box img {
+        max-width: 100%;
+        width: 100%;
+        box-shadow: 10px 7px 32px -3px rgba(0, 0, 0, 0.75);
     }
+
+    .about-us .img-box img:first-child {
+        position: absolute;
+        transform: translate(40%, 115%);
+        max-width: 90%;
+    }
+
+    .about-us .img-box img:last-child {
+        object-fit: contain;
+    }
+
+
+    .about-us .store-information-content .inner {
+        width: 40%;
+    }
+
+    .about-us .store-information-content .entry-content {
+        display: block;
+    }
+
+    .about-us .about-content h3 {
+        text-align: center;
+    }
+
+    .about-us .about-content p {
+        text-align: justify;
+        text-indent: 1.5em;
+    }
+
+    .about-us .store-information-content {
+        margin-top: 20px;
+        background-color: #fbe1ee;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-us .store-information-content .general-information {
+        width: 100%;
+    }
+
+    .about-us .store-information-content .general-information p {
+        text-align: justify;
+        text-indent: 1.5em;
+    }
+
+    .about-us .store-information-content .img-container {
+       display: none;
+    }
+
 
     /*services*/
     .services .entry-content {
