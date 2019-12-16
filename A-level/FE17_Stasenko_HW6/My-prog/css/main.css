@@ -319,7 +319,7 @@ img {
 
 }
 
-.products img {
+.products img.goods-logo {
     max-width: 635px;
     max-height: 453px;
 }

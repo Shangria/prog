@@ -94,8 +94,13 @@
     }
 
     .products .goods-block {
-        display: flex;
-        flex-direction: column;
+        display: block;
+    }
+
+    .products img.goods-logo {
+        max-width: 100%;
+        display: block;
+        margin: auto;
     }
 
     .products .content-products {
