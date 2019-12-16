@@ -52,6 +52,15 @@
     }
 
     /*about us*/
+    .about-us  h3 {
+        text-align: center;
+    }
+
+    .about-us  p {
+        text-align: justify;
+        text-indent: 1.5em;
+    }
+
     .about-us .about-inner .inner {
         width: 100%;
     }
@@ -90,14 +99,7 @@
         display: block;
     }
 
-    .about-us .about-content h3 {
-        text-align: center;
-    }
 
-    .about-us .about-content p {
-        text-align: justify;
-        text-indent: 1.5em;
-    }
 
     .about-us .store-information-content {
         margin-top: 20px;
