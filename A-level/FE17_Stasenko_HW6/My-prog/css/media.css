@@ -106,6 +106,10 @@
         padding: 1px;
     }
 
+    .box-goods .goods {
+        text-align: left;
+    }
+
 
     /*blog*/
     .wrapper-post {
