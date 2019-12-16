@@ -413,21 +413,7 @@ img {
     background-color: #f7f7f7;
     width: 400px;
     padding: 20px;
-}
-
-.blog .position-container:first-child .post-box {
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-
-.blog .position-container:nth-child(2) .post-box {
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-
-.blog .position-container:last-child .post-box {
-    transform: translate(-50%, -50%);
-    left: 50%;
+    margin: -30px auto 0 auto;
 }
 
 .blog .position-container .post-box h3 {
