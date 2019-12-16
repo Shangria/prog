@@ -77,6 +77,29 @@
     .general-information .content-footer {
         padding: 20px;
     }
+
+
+    /*blog*/
+    .wrapper-post {
+        display: block;
+    }
+
+    .blog .position-container {
+        display: block;
+        max-width: 100%;
+    }
+
+    .blog .wrapper-post .position-container .post-box {
+        width: 90%;
+    }
+
+    .blog .blog-container img {
+        width: 450px;
+        display: block;
+        margin: auto;
+    }
+
+
 }
 
 @media (max-width: 575px) {
