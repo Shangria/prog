@@ -444,6 +444,8 @@ img {
 
 .contacts {
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contacts .contacts-wrapper {
@@ -494,6 +496,32 @@ img {
 
 .contacts .contacts-wrapper .form-group textarea {
     resize: none;
-    height: 11em;
-    padding-top: 110px;
+    overflow: hidden;
+}
+
+.contacts button {
+    margin-top: 10px;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #d33127;
+    align-self: center;
+    color: white;
+}
+
+.footer {
+    background-color: #06121f;
+}
+
+.footer .column {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .column .title {
+    color: red;
+    font-size: 20px;
+    padding: 10px;
 }
