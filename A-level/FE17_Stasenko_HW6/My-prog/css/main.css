@@ -404,8 +404,8 @@ img {
     padding: 15px;
     text-align: center;
     font-weight: bold;
-    transform: translate(-20%, 45%);
-    top: 0;
+    left: -14px;
+    top: 14px;
 }
 
 .blog .wrapper-post .position-container .post-box {

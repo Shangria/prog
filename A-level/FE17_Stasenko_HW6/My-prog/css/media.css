@@ -78,6 +78,34 @@
         padding: 20px;
     }
 
+    /*services*/
+    .services .entry-content {
+        display: block;
+    }
+
+    .services .box {
+        max-width: 100%;
+    }
+
+
+    /*goods*/
+    .products {
+        display: block;
+    }
+
+    .products .goods-block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products .content-products {
+        padding-top: 15px;
+    }
+
+    .products .box-goods {
+        padding: 1px;
+    }
+
 
     /*blog*/
     .wrapper-post {
