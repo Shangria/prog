@@ -45,7 +45,6 @@ img {
     width: 100%;
     display: flex;
     background: rgba(230, 230, 230, 0.5);
-    padding-bottom: 10px;
 }
 
 .head.head-mobile {
@@ -103,11 +102,13 @@ img {
 
 .head .navigation {
     display: flex;
-    width: 40%;
-    justify-content: space-between;
-    padding-right: 15px;
+    width: calc(100% - 35%);
+    justify-content: space-around;
+    padding: 15px;
 }
-
+.head .navigation li{
+    font-size: 15px;
+}
 .head .navigation a {
     color: black;
     text-decoration: none;
@@ -121,6 +122,7 @@ img {
 }
 
 .wrapper .banner {
+    height: 100vh;
     background: url(../img/banner.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
@@ -205,6 +207,7 @@ img {
     text-align: center;
     font-weight: normal;
     text-indent: 0;
+    margin-top: 0;
 }
 
 .about-us .store-information-content {
@@ -258,7 +261,9 @@ img {
 }
 
 /*services*/
-
+.services a{
+    display: block;
+}
 .services .box {
     max-width: 25%;
     border: 1px silver solid;
@@ -273,6 +278,7 @@ img {
 .services .box p {
     text-align: left;
     font-size: 15px;
+    color: black;
 }
 
 .services .box img {
@@ -287,9 +293,7 @@ img {
 }
 
 .services .box:hover {
-    background: #fff537;
-    border: #fff537;
-    box-shadow: -1px 2px 22px 8px rgba(242, 255, 0, 1);
+    box-shadow: 3px 2px 15px 5px rgba(0,0,0,0.75);
 }
 
 .services .box:hover img {
