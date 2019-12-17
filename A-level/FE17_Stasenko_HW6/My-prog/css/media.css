@@ -43,7 +43,6 @@
         color: #efecfb;
     }
 
-
     .navigation {
         flex-basis: 100%;
         display: flex;
@@ -52,11 +51,11 @@
     }
 
     /*about us*/
-    .about-us  h3 {
+    .about-us h3 {
         text-align: center;
     }
 
-    .about-us  p {
+    .about-us p {
         text-align: justify;
         text-indent: 1.5em;
         font-size: 16px;
@@ -91,7 +90,6 @@
         object-fit: contain;
     }
 
-
     .about-us .store-information-content .inner {
         width: 40%;
     }
@@ -99,8 +97,6 @@
     .about-us .store-information-content .entry-content {
         display: block;
     }
-
-
 
     .about-us .store-information-content {
         margin-top: 20px;
@@ -119,9 +115,8 @@
     }
 
     .about-us .store-information-content .img-container {
-       display: none;
+        display: none;
     }
-
 
     /*services*/
     .services .entry-content {
@@ -132,7 +127,6 @@
         max-width: 100%;
     }
 
-
     /*goods*/
     .products {
         display: block;
@@ -142,8 +136,7 @@
         display: block;
     }
 
-    .products img.goods-logo {
-        max-width: 100%;
+    .products .goods-logo img {
         display: block;
         margin: auto;
     }
@@ -159,7 +152,6 @@
     .box-goods .goods {
         text-align: left;
     }
-
 
     /*blog*/
     .wrapper-post {
@@ -180,7 +172,6 @@
         display: block;
         margin: auto;
     }
-
 
 }
 
