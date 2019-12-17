@@ -13,7 +13,6 @@ a {
     text-decoration: none;
 }
 
-
 img {
     max-width: 100%;
     width: 100%;
@@ -102,7 +101,6 @@ img {
     text-shadow: 2px 2px 2px #CE5937;
 }
 
-
 .head .navigation {
     display: flex;
     width: 40%;
@@ -150,12 +148,10 @@ img {
     text-shadow: #474747 3px 5px 2px, 2px 2px 2px rgba(206, 89, 55, 0);
 }
 
-
 /*about us*/
 .about-us {
 
 }
-
 
 .about-us .about-inner .inner {
     width: 30%;
@@ -186,7 +182,6 @@ img {
     object-fit: contain;
 }
 
-
 .about-us .store-information-content .inner {
     width: 40%;
 }
@@ -197,7 +192,6 @@ img {
     justify-content: space-around;
     font-size: 20px;
 }
-
 
 .about-us .about-content {
     font-size: 20px;
@@ -319,7 +313,7 @@ img {
 
 }
 
-.products img.goods-logo {
+.products .goods-logo img {
     max-width: 635px;
     max-height: 453px;
 }
@@ -335,13 +329,17 @@ img {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    min-width: 180px;
 
 }
 
-.products .box-goods img {
+.products .box-goods .good-logo {
+    order: 2;
+}
+
+.products .box-goods .good-logo img {
     max-width: 80px;
     min-height: 80px;
-    order: 2;
 }
 
 .box-goods .goods {
@@ -350,6 +348,7 @@ img {
     font-size: 13px;
     padding: 10px;
     text-align: center;
+    order: 1;
 }
 
 .box-goods .goods span:first-child {
@@ -464,24 +463,16 @@ img {
     justify-content: space-around;
 }
 
+.contacts .form-group .row textarea:focus,
 .contacts .form-group .row input:focus {
     color: #495057;
     background-color: #fff;
     border-color: #80bdff;
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25)
 }
 
 .contacts .form-group .row:last-child textarea {
     flex-basis: 80%;
-}
-
-.contacts .form-group .row textarea:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #80bdff;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25)
 }
 
 .contacts .contacts-wrapper .form-group input,
@@ -492,6 +483,7 @@ img {
     border-bottom: 1px solid #28a745;
     border-radius: 0;
     width: 30%;
+    outline: none;
 }
 
 .contacts .contacts-wrapper .form-group textarea {
