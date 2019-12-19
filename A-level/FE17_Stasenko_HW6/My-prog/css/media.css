@@ -21,65 +21,47 @@
 
     }
 
-    .logo,
-    .abbr-logo-name,
-    .logo-name {
+
+    /*navigation*/
+    .head .head-navigation {
+        display: block;
+    }
+
+    .head .head-navigation .logo {
         display: none;
     }
 
-    .head.head-mobile label {
-        display: block;
+    .head .navigation {
+        width: 100%;
     }
 
-    .head .hamburger .hamburger-state {
-        display: none;
-    }
-
-    .head .hamburger .hamburger-state:checked + ul {
-        display: block;
-    }
-    .hamburger label {
-        display: block;
-    }
-
-    .hamburger ul {
-        display: block;
-    }
-
-    .hamburger .hamburger-state {
-        display: none;
-    }
-
-    .hamburger .hamburger-state:checked + ul {
-        display: block;
-    }
-    .head .hamburger {
+    .head .navigation .hamburger-title,
+    .head .navigation ul.menu {
         background-color: rgba(161, 255, 162, 0.5);
-        display: block;
         padding: 10px;
         border-radius: 8px;
         margin: 5px;
         color: #0d5825;
     }
 
-    .head .hamburger a {
-        color: #000000;
-    }
-
-    .head .hamburger li:hover a {
-        color: #efecfb;
-    }
-
-    .head .navigation ul {
+    .head .navigation ul.menu {
+        background-color: rgba(161, 255, 162, 0.5);
+        padding: 10px;
+        border-radius: 8px;
+        margin: 5px;
+        color: #0d5825;
         display: none;
     }
 
-    .navigation {
-        flex-basis: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 15px;
+    .head .navigation .hamburger-state:checked + ul.menu {
+        display: block;
     }
+
+    .head .navigation .hamburger-title {
+        display: block;
+    }
+
+
 
     /*about us*/
     .about-us h3 {
