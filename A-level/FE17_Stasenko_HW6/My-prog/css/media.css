@@ -220,8 +220,7 @@
 }
 
 @media (max-width: 575px) {
-    body {
+    body, p {
         font-size: 15px;
     }
-
 }
