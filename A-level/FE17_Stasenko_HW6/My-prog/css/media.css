@@ -1,5 +1,7 @@
-@media (max-width: 1110px){
-    .about-us .about-content {
+@media (max-width: 1110px) {
+
+    .about-us .about-content,
+    .about-us .store-information-content .general-information {
         width: 100%;
         padding-top: 15px;
     }
@@ -25,14 +27,32 @@
         display: none;
     }
 
-    .head {
-        display: none;
-    }
-
-    .head.head-mobile {
+    .head.head-mobile label {
         display: block;
     }
 
+    .head .hamburger .hamburger-state {
+        display: none;
+    }
+
+    .head .hamburger .hamburger-state:checked + ul {
+        display: block;
+    }
+    .hamburger label {
+        display: block;
+    }
+
+    .hamburger ul {
+        display: block;
+    }
+
+    .hamburger .hamburger-state {
+        display: none;
+    }
+
+    .hamburger .hamburger-state:checked + ul {
+        display: block;
+    }
     .head .hamburger {
         background-color: rgba(161, 255, 162, 0.5);
         display: block;
@@ -50,6 +70,10 @@
         color: #efecfb;
     }
 
+    .head .navigation ul {
+        display: none;
+    }
+
     .navigation {
         flex-basis: 100%;
         display: flex;
@@ -60,12 +84,12 @@
     /*about us*/
     .about-us h3 {
         text-align: center;
+        padding-top: 10px;
     }
 
     .about-us p {
-        text-align: justify;
+        text-align: left;
         text-indent: 1.5em;
-        font-size: 16px;
     }
 
     .about-us .about-inner .inner {
@@ -115,10 +139,11 @@
 
     .about-us .store-information-content .general-information {
         width: 100%;
+
     }
 
     .about-us .store-information-content .general-information p {
-        text-align: justify;
+        text-align: left;
         text-indent: 1.5em;
     }
 
@@ -181,6 +206,17 @@
         margin: auto;
     }
 
+    .contacts .contacts-wrapper .form-group .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .contacts .contacts-wrapper .form-group .row input,
+    .contacts .contacts-wrapper .form-group .row textarea {
+        width: 100%;
+        flex-basis: auto;
+    }
 }
 
 @media (max-width: 575px) {
