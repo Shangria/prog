@@ -4,6 +4,7 @@ $(document).ready(function () {
         slidesToScroll: 1,
         dots: false,
         infinite: true,
-        centerMode:false
+        centerMode: false
     });
 });
+

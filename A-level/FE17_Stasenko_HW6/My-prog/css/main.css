@@ -1,7 +1,6 @@
 body {
     font-family: "Palatino Linotype", "Book Antiqua", "Palatino", sans-serif;
     font-size: 20px;
-    word-spacing: -3px;
 }
 
 *,
@@ -12,6 +11,7 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 img {
@@ -191,7 +191,6 @@ img {
     display: none;
 }
 
-
 .wrapper .banner {
     height: 100vh;
     background: url(../img/banner.jpg) center center no-repeat;
@@ -233,10 +232,6 @@ img {
 }
 
 /*about us*/
-.about-us {
-
-}
-
 .about-us .about-inner .entry-content {
     justify-content: space-around;
 }
@@ -603,4 +598,8 @@ img {
     color: red;
     font-size: 20px;
     padding: 10px;
+}
+
+.footer a {
+    color: #f6abff;
 }
