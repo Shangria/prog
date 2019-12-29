@@ -209,16 +209,22 @@ img {
 }
 
 .wrapper .banner-content .social-networks {
-    padding-top: 10px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .wrapper .banner-content .social-networks a {
     background-image: linear-gradient(to top left, rgb(99, 255, 99), rgba(113, 252, 90, 0.97), rgba(127, 250, 82, 0.95), rgba(142, 247, 73, 0.92), rgba(156, 244, 65, 0.89), rgba(170, 242, 56, 0.87), rgba(184, 239, 48, 0.84), rgba(198, 237, 39, 0.82), rgba(212, 234, 31, 0.79), rgba(227, 231, 22, 0.76), rgba(241, 229, 14, 0.74), rgba(255, 226, 5, 0.71));
     border-radius: 50%;
     color: #2e663d;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 10px;
 }
+
 
 .wrapper .banner-content .social-networks a:hover {
     background-color: #196310;
@@ -239,10 +245,6 @@ img {
 .about-us .entry-content .img-box {
     max-width: 30%;
     position: relative;
-}
-
-.about-us .about-content {
-    padding-left: 15px;
 }
 
 .about-us .img-box img {
@@ -347,7 +349,7 @@ img {
 }
 
 .services .box {
-    max-width: 32%;
+    width: 32%;
     border: 1px silver solid;
     border-radius: 15px;
     margin: 5px;
